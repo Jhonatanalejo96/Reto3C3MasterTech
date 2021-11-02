@@ -38,20 +38,20 @@ public class Message implements Serializable {
     public void setMessageText(String messageText) {
         this.messageText = messageText;
     }
-
-    public Cabin getCabin() {
-        return cabin;
-    }
-
-    public void setCabin(Cabin cabin) {
-        this.cabin = cabin;
-    }
-
+    
     public Client getClient() {
         return client;
     }
 
     public void setClient(Client client) {
         this.client = client;
+    }
+    
+    public Cabin getCabin() {
+        return cabin;
+    }
+
+    public void setCabin(Cabin cabin) {
+        this.cabin = cabin;
     }
 }
