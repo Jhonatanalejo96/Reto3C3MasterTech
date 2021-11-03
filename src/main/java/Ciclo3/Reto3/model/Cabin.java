@@ -94,4 +94,5 @@ public class Cabin implements Serializable {
     public void setReservations(List<Reservation> reservations) {
         this.reservations = reservations;
     }
+    
 }

@@ -19,7 +19,7 @@ public class Category implements Serializable {
     @JsonIgnoreProperties("category")
     private List<Cabin> cabins;
 
-    public Integer getId() {
+public Integer getId() {
         return id;
     }
 
